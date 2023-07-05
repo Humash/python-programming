@@ -1,0 +1,9 @@
+Celsius_1 = float(input("Temperature value in degree Celsius: " ))
+Fahrenheit_1 = float( input("Temperature value in degree Fahrenheit: " ))   
+fahrenheit_1 = (Celsius_1 * 1.8) + 32
+celsius_1 = (Fahrenheit_1 - 32)  / 1.8  
+    
+print('The %.2f degree Celsius is equal to: %.2f Fahrenheit'  
+      %(Celsius_1, fahrenheit_1))
+print ('The %.2f degree Fahrenheit is equal to: %.2f Celsius'  
+      %(Fahrenheit_1, celsius_1))
